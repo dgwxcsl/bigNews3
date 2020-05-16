@@ -15,4 +15,9 @@ $(function () {
         }
 
     })
+
+    $('.logout').on('click',function(){
+        localStorage.removeItem('token')
+        location.href='./login.html'
+    })
 })
