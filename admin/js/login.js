@@ -20,7 +20,7 @@ $(function () {
 
             },
             success: function (res) {
-                console.log(res);               
+                // console.log(res);               
                 $('.modal-body').text(res.msg)
                 $('#myModal').modal()
                 if (res.code === 200) {
